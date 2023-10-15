@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hover.css">
+
+</head>
+<body>
+    <div class="mainConatiner">
+        <div class="container1" style="vertical-align: top;">
+            <nav class="navBar1 borderRadius">
+                <ul>
+                    <li>
+                        <img src="home.png" alt="" style="height: 20px;">
+                        &nbsp;&nbsp;&nbsp;
+                        Home
+                    </li>
+                    <li>
+                        <img src="search.png" alt="" style="height: 20px;">
+                        &nbsp;&nbsp;&nbsp;
+                        Search
+                    </li>
+                </ul>
+            </nav>
+            <div class="library borderRadius">
+                <div style="font-family: 'Poppins', sans-serif; text-align: justify; margin-top: 3%; font-size: 20px;">
+                    Your Library
+                </div>
+                <div class="libraryInner1">
+                    <ul>
+                        <li>
+                            Create your first playlist
+                        </li>
+                        <li>
+                            It's easy we will help you
+                        </li>
+                        <li>
+                            <button class="btn1">
+                                Create playlist
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="libraryInner2">
+                    <ul>
+                        <li>
+                            Let's find some podcast to follow
+                        </li>
+                        <li>
+                            We will keep you updated on new episodes
+                        </li>
+                        <li>
+                            <button class="btn1">
+                                Browse Podcasts
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container2 borderRadius">
+            <nav class="navBar2 borderRadius">
+                <img class="logo" src="logo.png" alt="">
+                <span style="margin: 0 23px;">
+                    Sign in
+                </span>
+                <button class="login">
+                    Log in
+                </button>
+            </nav>
+            <div class="progressBar">
+                <div class="playBackOptions" style="height: 60%;">
+                    <img src="previous.png" alt="img here" style="height: 100%; margin: 0 10px;" id="previous">
+                    <img src="pause.png" alt="img here" style="height: 84%; margin: 0 10px; display: none;" id="pause">
+                    <img src="play.png" alt="img here" style="height: 100%; margin: 0 10px;" id="play">
+                    <img src="next.png" alt="img here" style="height: 100%; margin: 0 10px;" id="next">
+                    <img src="mute.png" alt="img here" style="height: 68%; margin: 0 10px; display: none;" id="mute">
+                    <img src="volume.png" alt="img here" style="height: 57%; margin: 0 10px;" id="volume" class="volume">
+                    <input type="range" min="0" max="100" id="volumebar" class="volumebar">
+                </div>
+                <input class="progress" type="range" min="0" max="100" id="progress">
+            </div> 
+            <div style="height: 150%;">
+                <div style="position: relative; top: 8%; margin-left: 2%;">
+                    Recently Played
+                </div>
+                <div class="songList">
+                    <div class="songCard borderRadius">
+                        <img src="playicon.png" alt="" class="playicon">
+                        <img class="cover" src="cover.jpg" alt="image here">
+                        <p>
+                            <span style="font-weight: bold;">
+                                Afterhours - BIR
+                            </span>
+                        </p>
+                    </div>
+                    <div class="songCard borderRadius">
+                        <img src="playicon.png" alt="" class="playicon">
+                        <img class="cover" src="cover.jpg" alt="image here">
+                        <p>
+                            <span style="font-weight: bold;">
+                                Spaceship - AP Dhillon
+                            </span>
+                        </p>
+                    </div>
+                    <div class="songCard borderRadius">
+                        <img src="playicon.png" alt="" class="playicon">
+                        <img class="cover" src="cover.jpg" alt="image here">
+                        <p>
+                            <span style="font-weight: bold;">
+                                Song Name
+                            </span>
+                        </p>
+                    </div>
+                    <div class="songCard borderRadius">
+                        <img src="playicon.png" alt="" class="playicon">
+                        <img class="cover" src="cover.jpg" alt="image here">
+                        <p>
+                            <span style="font-weight: bold;">
+                                Song Name
+                            </span>
+                        </p>
+                    </div>
+                    <div class="songCard borderRadius">
+                        <img src="playicon.png" alt="" class="playicon">
+                        <img class="cover" src="cover.jpg" alt="image here">
+                        <p>
+                            <span style="font-weight: bold;">
+                                Song Name
+                            </span>
+                        </p>
+                    </div>
+                    <div class="songCard borderRadius">
+                        <img src="playicon.png" alt="" class="playicon">
+                        <img class="cover" src="cover.jpg" alt="image here">
+                        <p>
+                            <span style="font-weight: bold;">
+                                Song Name
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>

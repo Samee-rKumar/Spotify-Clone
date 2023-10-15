@@ -1,0 +1,45 @@
+.songCard:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: rgb(66, 66, 66);
+    transition: all 0.2s ease-in-out;
+}
+
+.songCard:hover .playicon{
+    opacity: 1;
+    transform: translate(0,-20px);
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.navBar1 > ul > li:hover{
+    cursor: pointer;
+}
+
+.navBar2 > span:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.playBackOptions > img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.volume:hover + .volumebar{
+    opacity: 1;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.volumebar:hover{
+    opacity: 1;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+

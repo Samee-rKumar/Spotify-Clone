@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.borderRadius {
+    border-radius: 10px;
+}
+
+.container1{
+    background-color: black;
+    height: 97vh;
+    width: 22%;
+    display: inline-block;
+    margin: 10px 5px 10px 10px ;
+}
+
+.container2{
+    background-color: #121212;
+    height: 97vh;
+    display: inline-block;
+    width: 76%;
+    margin: 10px 10px 10px 5px;
+    position: relative;
+    overflow: scroll;
+}
+
+.container2::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+.container2::-webkit-scrollbar-track {
+    background: #121212;
+    /* color of the tracking area */
+}
+
+.container2::-webkit-scrollbar-thumb {
+    background-color:grey;
+    opacity: 0.5;
+}
+
+.navBar1{
+    height: 10vh;
+    margin-bottom: 10px;
+    background-color: #121212;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navBar1 > ul {
+    height: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.library{
+    height: 81.5vh;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+
+.libraryInner1, .libraryInner2{
+    width: 95%;
+    border-radius: 10px;
+    height: 20%;
+    background-color: #242424;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.libraryInner1 >ul,
+.libraryInner2 >ul {
+    height: 100%;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+}
+
+.libraryInner1>ul>li>button,
+.libraryInner2>ul>li>button{
+    height: 130%;
+    width: 130%;
+    /* border-radius: 55%; */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navBar2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    width: 76%;
+    height: 7%;
+    z-index: 10;
+    background-color: #121212;
+    opacity: 0.9;
+}
+
+.login{
+    margin: 0 23px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.songList{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20%;
+    position: relative;
+    top: 10%;
+}
+
+.songCard{
+    background: #181818;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    position: relative
+}
+
+.cover{
+    height: 70%;
+    width: 90%;
+}
+
+.playicon{
+    position: absolute;
+    height: 21%;
+    z-index: 1;
+    top: 60%;
+    left: 55%;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.logo{
+    height: 90%;
+    position: relative;
+    left: 0;
+    margin-right: 77%;
+}
+
+.progressBar{
+    position: fixed;
+    bottom: 20px;
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+
+#playBackOptionsPArent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.playBackOptions{
+    display: flex;
+    align-items: center;
+}
+
+.playBackOptions>img{
+    transition: all 0.2s ease-in-out;
+}
+
+.progress{
+    width: 90%;
+}
+
+.progress::-webkit-slider-runnable-track{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.volumebar{
+    opacity: 0;
+    width: 0%;
+    transition: all 0.2s ease-in-out;
+}
+
+#songName{
+    /* margin-right: 30%; */
+}
+
+
+
+
+
